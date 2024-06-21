@@ -19,7 +19,7 @@ export default function Card({ result }) {
           className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300"
         />
         <div className="m-2">
-          <p className="line-clamp-2 text-md text-grey-100 ">
+          <p className="line-clamp-2 text-md text-gray-400 ">
             {result.overview}
           </p>
           <h2 className="text-lg  font-bold truncate">
