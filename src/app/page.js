@@ -15,7 +15,7 @@ export default async function page({searchParams}) {
     throw new Error ('Failed to fetch Data')
   }
   const results = data.results
-  console.log(results)
+  // console.log(results)
   return (
     <div>
       <Result results={results}/>
