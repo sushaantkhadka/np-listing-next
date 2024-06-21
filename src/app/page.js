@@ -1,4 +1,4 @@
-import ResultCard from "../components/resultCard";
+import Result from "../components/Result";
 
 const API_KEY = process.env.API_KEY;
 
@@ -18,7 +18,7 @@ export default async function page({searchParams}) {
   console.log(results)
   return (
     <div>
-      <ResultCard  results={results}/>
+      <Result results={results}/>
     </div>
   )
 }
