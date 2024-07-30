@@ -18,6 +18,7 @@ export default function Card({ result }) {
           // src={`/nice.jpeg`}
           width={500}
           height={200}
+          alt={result.title || result.name}
           className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300"
         /> 
         </div>

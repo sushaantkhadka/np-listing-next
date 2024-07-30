@@ -22,6 +22,7 @@ export default async function MoviePage({ params }) {
             width={500}
             height={300}
             className="rounded-lg"
+            alt={movie.title || movie.name}
             style={{ maxWidth: "100%", height: "100%" }}
           />
           <div className="p-2">
@@ -38,8 +39,8 @@ export default async function MoviePage({ params }) {
               {movie.vote_average}
             </p>
             <div className="flex gap-2">
-              {movie.genres.map((genre) => (
-                <Link href={`/genre/${genre.name}`}>
+              {movie.genres.map((genre, index) => (
+                <Link key={index} href={`/genre/${genre.name}`}>
                   <p>{genre.name}</p>
                 </Link>
               ))}

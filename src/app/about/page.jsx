@@ -13,7 +13,7 @@ export default function About() {
         videos, and more from the latest Amazon Originals for the big and small
         screen Android App IMDb for Android phones and tablets, download for
         free Awards Central Awards Central - Nominees and Winners for Oscars,
-        Golden Globes, Independent Spirit Awards, BAFTAs, Critics' Choice and
+        Golden Globes, Independent Spirit Awards, BAFTAs, Critics Choice and
         SAGs
       </p>
     </div>
